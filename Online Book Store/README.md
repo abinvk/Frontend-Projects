@@ -7,6 +7,11 @@
 
 - first row 4 books photos and details.
 - 50 Buttons add.
-- Button name book details
+- Button name = book details
 - Background color = 
 - Button color =
+
+# Add More 
+
+- Book details button click then next page move. That page is book paurchase page.
+- 
