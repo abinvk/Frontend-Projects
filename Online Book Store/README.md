@@ -33,3 +33,10 @@ book-store/
       book2.jpg
       ...
       book50.jpg
+
+
+
+
+data-title  → book name
+data-author → author name
+data-desc   → book description
