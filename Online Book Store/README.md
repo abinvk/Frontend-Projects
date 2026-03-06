@@ -15,3 +15,21 @@
 
 - Book details button click then next page move. That page is book paurchase page.
 - 
+
+
+book-store/
+│
+├── index.html        (Welcome / Landing page)
+├── gallery.html      (Book gallery page)
+│
+├── css/
+│     style.css
+│
+├── js/
+│     script.js
+│
+└── images/
+      book1.jpg
+      book2.jpg
+      ...
+      book50.jpg
