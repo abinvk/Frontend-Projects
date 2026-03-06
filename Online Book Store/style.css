@@ -1,0 +1,55 @@
+/* Tablet */
+
+@media (max-width:900px){
+
+.book-container{
+
+grid-template-columns: repeat(2,1fr);
+
+}
+
+}
+
+/* Mobile */
+
+@media (max-width:500px){
+
+.book-container{
+
+grid-template-columns: 1fr;
+
+}
+
+}
+
+
+body{
+  font-family: Arial;
+}
+
+.book-container{
+
+  display: grid;
+
+  grid-template-columns: repeat(4,1fr);
+
+  gap: 20px;
+
+  padding: 20px;
+}
+
+.book{
+  text-align:center;
+}
+
+.book img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+}
+
+button{
+  margin-top:10px;
+  padding:10px;
+  width:100%;
+}
