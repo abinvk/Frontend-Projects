@@ -12,12 +12,12 @@ document.getElementById("title").innerText = title;
 document.getElementById("author").innerText = author;
 document.getElementById("desc").innerText = desc;
 
-document.getElementById("bookModal").style.display = "block";
+document.getElementById("bookDetails").style.display = "block";
 
 }
 
 });
 
-function closeModel(){
-document.getElementById("bookModal").style.display = "none";
+function closeDetails(){
+document.getElementById("bookDetails").style.display = "none";
 }
