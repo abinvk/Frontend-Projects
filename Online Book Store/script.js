@@ -8,16 +8,12 @@ let title = this.dataset.title;
 let author = this.dataset.author;
 let desc = this.dataset.desc;
 
-document.getElementById("title").innerText = title;
-document.getElementById("author").innerText = author;
-document.getElementById("desc").innerText = desc;
+localStorage.setItem("title", title);
+localStorage.setItem("author", author);
+localStorage.setItem("desc", desc);
 
-document.getElementById("bookDetails").style.display = "block";
+window.location.href = "book.html";
 
 }
 
 });
-
-function closeDetails(){
-document.getElementById("bookDetails").style.display = "none";
-}
