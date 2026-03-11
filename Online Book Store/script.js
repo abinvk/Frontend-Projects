@@ -17,3 +17,28 @@ window.location.href = "book.html";
 }
 
 });
+
+let searchInput = document.getElementById("searchInput");
+
+searchInput.addEventListener("keyup", function(){
+
+let searchValue = this.value.toLowerCase();
+
+let books = document.querySelectorAll(".book");
+
+books.forEach(function(book){
+
+let button = book.querySelector(".open-book");
+
+let title = button.dataset.title.toLowerCase();
+let author = button.dataset.author.toLowerCase();
+
+if(title.includes(searchValue) || author.includes(searchValue)){
+book.style.display = "block";
+}else{
+book.style.display = "none";
+}
+
+});
+
+});
