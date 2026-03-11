@@ -135,3 +135,18 @@ grid-template-columns:1fr;
 }
 
 }
+
+/* Search box */
+
+.search-box{
+text-align:center;
+margin:30px;
+}
+
+.search-box input{
+width:320px;
+padding:12px;
+font-size:16px;
+border-radius:8px;
+border:1px solid #ccc;
+}
